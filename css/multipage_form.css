@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(201, 201, 201);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97vw;
+    height: 80vh;
+    background-color: rgb(201, 201, 201);
+}
+.container{
+    width: 90vw;
+    max-width: 800px;
+    height: 340px;
+    background-color: white;
+}
+@media screen and (max-width: 500px) {
+    .container{
+        height: fit-content;
+    }
+}
+.container h1{
+    padding: 18px 0;
+    width: fit-content;
+    margin: auto;
+}
+.tab{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 700px;
+    height: fit-content;
+    display: none;
+}
+
+.tab input{
+    width: 90%;
+    padding: 8px;
+    font-size: 17px;
+}
+input.invalid{
+    background-color: rgb(235 235 235);
+}
+.tab p{
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 20px auto;
+    width: 95%;
+    max-width: 700px;
+    height: fit-content;
+}
+.btn .previous{
+    cursor: pointer;
+    padding: 4px 13px 4px 13px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.btn .next{
+    cursor: pointer;
+    padding: 4px 13px 4px 13px;
+    font-size: 17px;
+    background-color: rgb(34, 204, 25);
+    color: white;
+    border: none;
+}
+.another{
+    display: none;
+    width: 100%;
+}
+.another p{
+    width: fit-content;
+    margin:  58px auto 0 auto;
+    padding-bottom: 20px;
+}

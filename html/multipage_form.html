@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/multipage_form.css">
+</head>
+
+<body>
+    <div class="main">
+        <form id="regForm" class="container">
+            <h1 class="containerh1">Register:</h1>
+            <div class="tab">
+                <p>Name:</p>
+                <input type="text" placeholder="First Name...">
+                <input type="text" placeholder="Last Name...">
+            </div>
+            <div class="tab hide">
+                <p>Contact Info:</p>
+                <input type="text" placeholder="Email...">
+                <input type="text" placeholder="Phone...">
+            </div>
+            <div class="tab hide">
+                <p>Birthday:</p>
+                <input type="text" placeholder="dd">
+                <input type="text" placeholder="mm">
+                <input type="text" placeholder="yyyy">
+            </div>
+            <div class="tab hide">
+                <p>Login Info:</p>
+                <input type="text" placeholder="Username...">
+                <input type="text" placeholder="Password...">
+            </div>
+            <div class="btn">
+                <button type="button" id="prevBtn" class="previous" onclick="nextPrev(-1)">Previous</button>
+                <button type="button" id="nextBtn" class="next" onclick="nextPrev(1)">Next</button>
+            </div>
+            <div class="another">
+                <p>Your form is Submitted </p>
+            </div>
+        </form>
+    </div>
+
+    <script src="/js/multipage_form.js"></script>
+</body>
+
+</html>

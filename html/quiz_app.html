@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index-ByuPnV1P.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main flex justify-center items-center w-screen h-screen bg-gray-300">
+        <div class="container md:w-[800px] w-[95%] h-fit bg-white rounded-lg">
+           <div class="container_h1 w-fit h-fit">
+            <h1 class="text-5xl font-bold tracking-wide py-4 px-6">JavaScript Basics Quiz</h1>
+           </div>
+           <div class="container_h2 w-full h-fit ">
+                <div class="block1 my-8 w-[95%] m-auto">
+                    <div class=" flex block1_p1 w-full h-32 items-center py-2 text-3xl font-semibold ">Questions will go here</div>
+                    <div class= "hidden block1_p2 w-full h-fit">
+                        <h1 class="block1_p2_h1 text-2xl font-semibold"></h1>
+                        <div class="grid block1_p2_grid grid-cols-2 my-8 gap-10 h-fit">
+                            <div class="option option1 m-auto w-[95%] flex justify-center text-center rounded-md py-1 bg-gray-500 text-white border-2 border-black cursor-pointer" data-result="${questions[random].answers[0].correct}"></div>
+                            <div class="option option2 m-auto w-[95%] flex justify-center text-center rounded-md py-1 bg-gray-500 text-white border-2 border-black cursor-pointer" data-result="${questions[random].answers[1].correct}"></div>
+                            <div class="option option3 m-auto w-[95%] flex justify-center text-center rounded-md py-1 bg-gray-500 text-white border-2 border-black cursor-pointer" data-result="${questions[random].answers[2].correct}"></div>
+                            <div class="option option4 m-auto w-[95%] flex justify-center text-center rounded-md py-1 bg-gray-500 text-white border-2 border-black cursor-pointer" data-result="${questions[random].answers[3].correct}"></div>
+                        </div>
+                    </div>
+                    <div class="hidden block1_p3 w-full h-fit flex-col gap-8 items-center py-2 text-3xl font-semibold">
+                        <h1></h1>
+                        <h2 class="font-normal"></h2>
+                    </div>
+                </div>
+                <div class="block2 w-[95%] mx-auto my-6">
+                    <button class="block2_btn1 mx-2 px-5 py-1 bg-green-700 text-white text-xl tracking-wide rounded-lg my-4 cursor-pointer">Start</button>
+                    <button class="hidden block2_btn2 mx-2 px-5 py-1 bg-green-700 text-white text-xl tracking-wide rounded-lg my-4 cursor-pointer">Submit</button>
+                    <button class="hidden block2_btn3 mx-2 px-5 py-1 bg-violet-700 text-white text-xl tracking-wide rounded-lg my-4 cursor-pointer">Restart</button>
+                </div>
+           </div>
+        </div>
+    </div>
+
+
+
+
+<script src="/js/quiz_app.js"></script>    
+</body>
+</html>

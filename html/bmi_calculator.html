@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index-ByuPnV1P.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-200">
+    <div class="main w-screen h-[80vh] flex items-center justify-center bg-gray-200">
+        <div class="container w-[320px] h-[500px] bg-white rounded-md pt-4 pb-4">
+            <h1 class="px-2 py-1 text-3xl font-bold w-fit m-auto">BMI CALCULATOR</h1>
+            <div class="block w-5/6 h-fit m-auto bg-violet-200 pb-4">
+                <div class="btn w-full h-fit flex justify-around mt-6 ">
+                    <button class="btn_standard px-8 py-1 bg-violet-500 text-white font-semibold">STANDARD</button>
+                    <button class="btn_metric px-7 py-1 bg-white text-violet-500 font-semibold">METRIC</button>
+                </div>
+                <div class="card h-[332px] w-full ">
+                    <div class="card1 flex w-full h-[60px] m-auto justify-around items-center mt-5">
+                        <div class="card1_p1 font-semibold text-lg">Height:</div>
+                        <div class="card1_p2 flex flex-col gap-2">
+                            <div class="card1_p2_l1 flex justify-start gap-1">
+                                <input class="card1_p2_l1_i w-[50px] px-2" type="text ">
+                                <p class="card1_p2_l1_p">feet</p>
+                            </div>
+                            <div class="card1_p2_l2 flex justify-start gap-1">
+                                <input class="card1_p2_l2_i w-[50px] px-2" type="text ">
+                                <p class="card1_p2_l2_p">inches</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2 flex w-full h-[60px] m-auto justify-around items-center mt-5">
+                        <div class="card2_p1">
+                            <p class="font-semibold text-lg">Weight:</p>
+                        </div>
+                        <div class="card2_p2 flex gap-2">
+                            <input class="card2_p2_i w-[45px] px-2" type="text">
+                            <p class="card2_p2_p1">pounds</p>
+                        </div>
+                    </div>
+                    <div class="card3 flex w-full">
+                        <button class="card3_btn mt-5 px-3 py-1 m-auto bg-red-700 text-white rounded-md hover:bg-red-600">Calculate</button>
+                    </div>
+                    <div class="card4 w-fit m-auto mt-7 ">
+                        <p class="font-semibold ">Your BMI:</p>
+                        <input class="card4_i w-[70px] border-2 border-gray-500 px-2 mt-1 rounded-md " type="text">
+                    </div>
+                    <p class="hidden category w-fit m-auto rounded-sm bg-violet-200 bg-yellow-500 bg-green-500 bg-orange-500 bg-red-500 text-white mt-3 px-4 py-2 text-lg"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/bmi_calculator.js"></script>
+</body>
+
+</html>
