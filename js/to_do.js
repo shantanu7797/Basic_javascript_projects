@@ -27,8 +27,8 @@ function createTaskElement(randomKey, titlec, descc) {
         <td>${titlec}</td>
         <td class="block_l2">${descc ? descc : 'No Due Date'}</td>
         <td>
-            <div class="td_div checkBox"><img src="/images/img_check.png" alt=""></div>
-            <div class="td_div deleteKey"><img src="/images/img_del.png" alt=""></div>
+            <div class="td_div checkBox"><img src="./images/img_check.png" alt=""></div>
+            <div class="td_div deleteKey"><img src="./images/img_del.png" alt=""></div>
         </td>
     </tr>
     `;
